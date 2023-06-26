@@ -20,6 +20,10 @@ on:
         description: 'parameter'
         required: false
         default: ''
+      ssh:
+        description: 'SSH connection to Actions'
+        required: false
+        default: 'false'
 
 env:
   REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
